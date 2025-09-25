@@ -1,0 +1,28 @@
+{
+  "name": "team-to-do-list",
+  "version": "1.0.1",
+  "description": "to do list tailored for fraternities",
+  "author": "Ryan Addeche",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "express-session": "^1.18.2",
+    "lowdb": "^1.0.0",
+    "mongodb": "^6.20.0"
+  },
+  "engines": {
+    "node": "^22.18.0"
+  },
+  "repository": {
+    "url": "https://fillINTHISRENDERLINKLATERDONTSELL.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
